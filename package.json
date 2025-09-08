@@ -1,0 +1,22 @@
+{
+  "name": "playwright-auth-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Ashikujjaman/playwright-auth-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Md-Ashikujjaman/playwright-auth-tests/issues"
+  },
+  "homepage": "https://github.com/Md-Ashikujjaman/playwright-auth-tests#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}
