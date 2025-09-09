@@ -63,6 +63,7 @@ test('Invalid email format only', async ({ page }) => {
   await page.fill("//input[@id='password']", "Pas5");
   await page.click("//button[normalize-space()='Login']");
 
-  const validationMsg = await page.locator("//input[@id='email']").evaluate(el => el.validationMessage);
+  const validationMsg = await page.locator("//input[@id='email']")
+  .evaluate(el => el.validationMessage);
   await expect(validationMsg).toContain("Please include an '@' in the email address");
 });
